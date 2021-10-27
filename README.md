@@ -1,6 +1,6 @@
 ## Minimalist Tab Bar for Firefox 91+ Proton UI
 
-
+<img width="1256" alt="screenshot" src="https://user-images.githubusercontent.com/532904/139001554-10f903f9-d2be-409d-9c4e-8cd2f2ee2297.png">
 
 Simple userChrome.css tweak for Firefox 91+ (Proton) tab bar to make it more minimalistic while retaining the soul of Proton by doing the following:
 
@@ -15,7 +15,7 @@ Requires Firefox 91+ (has not tested with ESR) with Proton interface.
 
 Please Note: This adjustment works better with the "Light" theme, but is also compatible with "Dark" and "Alpenglow" themes. Not tested for compatibility with any other Mozilla or third party themes.
 
-This has only been tested on Mac OS Monterey. Additional testing for Windows will follow at a later date.
+This has only been tested on Mac OS Monterey. Additional testing for Windows will follow at a later date. Use this file at your own risk.
 
 ### Installation
 1. Enter `about:config` into your Firefox URL bar and follow the instructions in the disclaimer.
@@ -28,7 +28,7 @@ This has only been tested on Mac OS Monterey. Additional testing for Windows wil
 1. Enter `about:support` into your Firefox URL bar and click "Show Folder" (Windows) or "Show In Finder" (Mac OS) next to Profile Folder.
 2. Delete the `chrome` directory or `userChrome.css` file in the CSS directory.
 3. You may optionally set `toolkit.legacyUserProfileCustomizations.stylesheets` in `about:config` to `false`.
-4. Restart Firefox
+4. Restart Firefox.
 
 ### Bugs, Feature Requests, Pull Requests, etc.
 
