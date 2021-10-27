@@ -21,7 +21,7 @@ This has only been tested on Mac OS Monterey. Additional testing for Windows wil
 1. Enter `about:config` into your Firefox URL bar and follow the instructions in the disclaimer.
 2. Search for `toolkit.legacyUserProfileCustomizations.stylesheets`; make sure this is set to `true`.
 3. Enter `about:support` into your URL bar and click "Show Folder" (Windows) or "Show In Finder" (Mac OS) next to Profile Folder.
-4. Create a new folder called `chrome` and copy `userChrome.css` file into that directory.
+4. Create a new folder called `chrome` and copy `userChrome.css` file into that directory; this will overwrite any existing `userChrome.css` file.
 5. Restart Firefox.
 
 ### Uninstallation
