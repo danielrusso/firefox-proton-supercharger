@@ -30,6 +30,11 @@ This has only been tested on Mac OS Monterey. Additional testing for Windows wil
 3. You may optionally set `toolkit.legacyUserProfileCustomizations.stylesheets` in `about:config` to `false`.
 4. Restart Firefox.
 
+### To-Do
+
+1. Add smooth transitions for hover states.
+2. Test on Windows.
+
 ### Bugs, Feature Requests, Pull Requests, etc.
 
 Please feel free to file an issue with any of these requests. I am happy to review pull requests as well.
