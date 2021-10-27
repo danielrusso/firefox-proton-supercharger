@@ -26,7 +26,7 @@ This has only been tested on Mac OS Monterey. Additional testing for Windows wil
 
 ### Uninstallation
 1. Enter `about:support` into your Firefox URL bar and click "Show Folder" (Windows) or "Show In Finder" (Mac OS) next to Profile Folder.
-2. Delete the `chrome` directory or `userChrome.css` file in the CSS directory.
+2. Delete the `chrome` directory or `userChrome.css` file in the user profile folder.
 3. You may optionally set `toolkit.legacyUserProfileCustomizations.stylesheets` in `about:config` to `false`.
 4. Restart Firefox.
 
