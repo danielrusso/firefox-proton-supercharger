@@ -8,6 +8,7 @@ Simple userChrome.css tweak for Firefox 91+ (Proton) tab bar to make it more min
  * Adds a slight border next to each active tab for clarity and organization.
  * Reduces the opacity of inactive tabs to make active tab easier to find.
  * Adjusts the favicons on tab bars to be 50% grayscale.
+ * Always show the audio icon if a particular tab is playing audio
 
 ### Compatibility
 
