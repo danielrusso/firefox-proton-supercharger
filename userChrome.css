@@ -65,3 +65,12 @@
 .tabbrowser-tab:not([visuallyselected="true"], [multiselected]) .tab-content {
 	padding: 0 12px !important;
 }
+
+/* Show Sound Icon While Audio Playing */
+.tabbrowser-tab .tab-icon-stack[soundplaying='true'] .tab-icon-image {
+	opacity: 0 !important;
+}
+
+.tabbrowser-tab .tab-icon-stack[soundplaying='true'] .tab-icon-overlay[soundplaying='true'] {
+	opacity: 1 !important;
+}
