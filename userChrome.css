@@ -1,6 +1,6 @@
 /*
- * Minimalist Tab Bar for Firefox 91+
- * Copyright (c) 2021 Daniel Russo.
+ * Minimalist Tab Bar for Firefox 119+
+ * Copyright (c) 2021-2023 Daniel Russo.
  * 
  * For install instructions, please visit:
  * https://github.com/danielrusso/firefox-css-minimalist-proton-tab-bar
@@ -8,19 +8,24 @@
  * License: MIT License (https://opensource.org/licenses/MIT)
  */
 
+/* Root Variables */
+:root {
+	--mtb-gray: #d1d1d1;
+}
+
 /* Active Tab Shadow Removal */
-.tabbrowser-tab:is([visuallyselected="true"], [multiselected]) > .tab-stack > .tab-background {
-	border: 1px solid var(--chrome-content-separator-color) !important;
+:root .tabbrowser-tab:is([selected], [multiselected]) > .tab-stack > .tab-background {
+	border: 1px solid var(--mtb-gray) !important;
 	box-shadow: none !important
 }
 
 /* Add Border For Separation */
-.tabbrowser-tab:is([visuallyselected="true"], [multiselected]) .tab-loading-burst,
-.tabbrowser-tab:is([visuallyselected="true"], [multiselected]) + .tabbrowser-tab:not([visuallyselected="true"], [multiselected]) .tab-loading-burst {
+:root .tabbrowser-tab:is([selected], [multiselected]) .tab-loading-burst,
+:root .tabbrowser-tab:is([selected], [multiselected]) + .tabbrowser-tab:not([selected], [multiselected]) .tab-loading-burst {
 	border-left: 0 !important;
 }
 
-.tabbrowser-tab:not([visuallyselected="true"], [multiselected]) .tab-loading-burst {
+:root .tabbrowser-tab:not([selected], [multiselected]) .tab-loading-burst {
 	border-radius: 0 !important;
 	border-width: 1px !important;
 	border-style: solid !important;
@@ -28,49 +33,49 @@
 	border-bottom-width: 0 !important;
 	border-right-width: 0 !important;
 	border-top-width: 0 !important;
-	border-image: linear-gradient(180deg, rgba(0,0,0,0) 15%, var(--chrome-content-separator-color) 15%, var(--chrome-content-separator-color) 85%, rgba(0,0,0,0) 85%) 1 !important;
+	border-image: linear-gradient(180deg, rgba(0,0,0,0) 15%, var(--mtb-gray) 15%, var(--mtb-gray) 85%, rgba(0,0,0,0) 85%) 1 !important;
 }
 
-.tabbrowser-tab:not([visuallyselected="true"], [multiselected]):hover .tab-loading-burst,
-.tabbrowser-tab:not([visuallyselected="true"], [multiselected]):hover + .tabbrowser-tab:not([visuallyselected="true"], [multiselected]) .tab-loading-burst {
+:root .tabbrowser-tab:not([selected], [multiselected]):hover .tab-loading-burst,
+:root .tabbrowser-tab:not([selected], [multiselected]):hover + .tabbrowser-tab:not([selected], [multiselected]) .tab-loading-burst {
 	border-width: 0 !important;
 	border-image: initial !important;
 }
 
 /* Grayscale Favicons */
-.tabbrowser-tab:not([visuallyselected="true"], [multiselected]) .tab-icon-image {
+:root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-image {
 	filter: grayscale(0.5) !important;
 }
 
-.tabbrowser-tab:not([visuallyselected="true"], [multiselected]):hover .tab-icon-image {
+:root .tabbrowser-tab:not([selected], [multiselected]):hover .tab-icon-image {
 	filter: grayscale(0) !important;
 }
 
 /* Inactive Tab Opacity */
-.tabbrowser-tab {
+:root .tabbrowser-tab {
 	opacity: 0.8 !important;
 	padding-inline: 0 !important;
 }
 
-.tabbrowser-tab:hover {
+:root .tabbrowser-tab:hover {
 	opacity: 1 !important;
 }
 
-.tabbrowser-tab:is([visuallyselected="true"], [multiselected]) {
+:root .tabbrowser-tab:is([selected], [multiselected]) {
 	opacity: 1 !important;
 	padding-inline: 4px !important;
 }
 
 /* Inactive Tab Padding Fix */
-.tabbrowser-tab:not([visuallyselected="true"], [multiselected]) .tab-content {
+:root .tabbrowser-tab:not([selected], [multiselected]) .tab-content {
 	padding: 0 12px !important;
 }
 
 /* Show Sound Icon While Audio Playing On Non-Selected Tab */
-.tabbrowser-tab:not([visuallyselected="true"], [multiselected]) .tab-icon-stack[soundplaying='true'] .tab-icon-image {
+:root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-stack[soundplaying] .tab-icon-image {
 	opacity: 0 !important;
 }
 
-.tabbrowser-tab:not([visuallyselected="true"], [multiselected]) .tab-icon-stack[soundplaying='true'] .tab-icon-overlay[soundplaying='true'] {
+:root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-stack[soundplaying] .tab-icon-overlay[soundplaying] {
 	opacity: 1 !important;
 }
