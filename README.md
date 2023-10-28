@@ -1,4 +1,4 @@
-> ⚠️ As of October 28, 2023, the latest update to Firefox has broken this update; I am working on getting this fixed as soon as I can.
+> ⚠️ **As of October 28, 2023, the latest update to Firefox has broken this update; I am working on getting this fixed.**
 
 ## Minimalist Tab Bar for Firefox 91+ Proton UI
 
