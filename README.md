@@ -1,6 +1,4 @@
-> ⚠️ **As of October 28, 2023, the latest update to Firefox has broken this update; I am working on getting this fixed.**
-
-## Minimalist Tab Bar for Firefox 91+ Proton UI
+## Minimalist Tab Bar for Firefox 119+ Proton UI
 
 <img width="1256" alt="screenshot" src="https://user-images.githubusercontent.com/532904/139001554-10f903f9-d2be-409d-9c4e-8cd2f2ee2297.png">
 
