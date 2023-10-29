@@ -1,8 +1,10 @@
 ## Minimalist Tab Bar for Firefox 119+ Proton UI
 
+> ℹ️ This userChrome.css tweak has been updated to work with Firefox 119.0+ as of October 28, 2023
+
 <img width="1256" alt="screenshot" src="https://user-images.githubusercontent.com/532904/139001554-10f903f9-d2be-409d-9c4e-8cd2f2ee2297.png">
 
-Simple userChrome.css tweak for Firefox 91+ (Proton) tab bar to make it more minimalistic while retaining the soul of Proton by doing the following:
+Simple userChrome.css tweak for Firefox 119+ (Proton) tab bar to make it more minimalistic while retaining the soul of Proton by doing the following:
 
  * Removes the shadow from the active tab.
  * Adds a slight border next to each active tab for clarity and organization.
@@ -12,7 +14,7 @@ Simple userChrome.css tweak for Firefox 91+ (Proton) tab bar to make it more min
 
 ### Compatibility
 
-Requires Firefox 91+ (has not tested with ESR) with Proton interface.
+Requires Firefox 119+ (has not tested with ESR) with Proton interface.
 
 Please Note: This adjustment works better with the "Light" theme, but is also compatible with "Dark" and "Alpenglow" themes. Not tested for compatibility with any other Mozilla or third party themes.
 
