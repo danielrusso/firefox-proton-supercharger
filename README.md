@@ -16,9 +16,9 @@ Simple userChrome.css tweak for Firefox 119+ (Proton) tab bar to make it more mi
 
 Requires Firefox 119+ (has not tested with ESR) with Proton interface.
 
-Please Note: This adjustment works better with the "Light" theme, but is also compatible with "Dark" and "Alpenglow" themes. Not tested for compatibility with any other Mozilla or third party themes.
+Please Note: This adjustment works best with the "Light" theme, but is also compatible with "Dark" and "Alpenglow" themes. Not tested for compatibility with any other Mozilla or third party themes.
 
-This has only been tested on Mac OS Monterey. Additional testing for Windows will follow at a later date. Use this file at your own risk.
+This has only been tested on Mac OS Sonoma. Additional testing for Windows will follow at a later date. Use this file at your own risk.
 
 ### Installation
 1. Enter `about:config` into your Firefox URL bar and follow the instructions in the disclaimer.
@@ -46,4 +46,4 @@ This is the first Firefox CSS adjustment I have made, so I am happy to also acce
 
 ### License
 
-You are free to incorporate this into any other userChrome.css themes so long as the terms of the license (MIT License) are maintained.
+You are free to incorporate this into any other `userChrome.css` themes so long as the terms of the license (MIT License) are maintained.
