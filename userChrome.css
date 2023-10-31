@@ -1,6 +1,6 @@
 /*
- * Minimalist Tab Bar for Firefox 119+
- * Copyright (c) 2021-2023 Daniel Russo.
+ * Proton Supercharger for Firefox 119+
+ * Copyright (c) 2021 Daniel Russo.
  * 
  * For install instructions, please visit:
  * https://github.com/danielrusso/firefox-css-minimalist-proton-tab-bar
@@ -8,14 +8,14 @@
  * License: MIT License (https://opensource.org/licenses/MIT)
  */
 
-/* Root Variables */
 :root {
-	--mtb-gray: #d1d1d1;
+	--mtb-gray-light: #d1d1d1;
+	--mtb-gray-dark: #333333;
 }
 
 /* Active Tab Shadow Removal */
 :root .tabbrowser-tab:is([selected], [multiselected]) > .tab-stack > .tab-background {
-	border: 1px solid var(--mtb-gray) !important;
+	border: 1px solid var(--mtb-gray-light) !important;
 	box-shadow: none !important
 }
 
@@ -33,7 +33,7 @@
 	border-bottom-width: 0 !important;
 	border-right-width: 0 !important;
 	border-top-width: 0 !important;
-	border-image: linear-gradient(180deg, rgba(0,0,0,0) 15%, var(--mtb-gray) 15%, var(--mtb-gray) 85%, rgba(0,0,0,0) 85%) 1 !important;
+	border-image: linear-gradient(180deg, rgba(0,0,0,0) 15%, var(--mtb-gray-light) 15%, var(--mtb-gray-light) 85%, rgba(0,0,0,0) 85%) 1 !important;
 }
 
 :root .tabbrowser-tab:not([selected], [multiselected]):hover .tab-loading-burst,
@@ -43,11 +43,11 @@
 }
 
 /* Grayscale Favicons */
-:root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-image {
+:root .tabbrowser-tab:not([selected], [multiselected], [soundplaying], [muted], [activemedia-blocked]) .tab-icon-image {
 	filter: grayscale(0.5) !important;
 }
 
-:root .tabbrowser-tab:not([selected], [multiselected]):hover .tab-icon-image {
+:root .tabbrowser-tab:not([selected], [multiselected], [soundplaying], [muted], [activemedia-blocked]):hover .tab-icon-image {
 	filter: grayscale(0) !important;
 }
 
@@ -78,4 +78,16 @@
 
 :root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-stack[soundplaying] .tab-icon-overlay[soundplaying] {
 	opacity: 1 !important;
+}
+
+/* Make Tab More Distinct With Audio Playing */
+.tab-icon-overlay:not([crashed]):is([soundplaying], [muted], [activemedia-blocked]) {
+	background-color: purple !important;
+	fill: white !important;
+	fill-opacity: 1 !important;
+}
+
+/* Disable Click To Mute Tab */
+:root .tab-icon-overlay {
+	pointer-events: none !important;
 }
