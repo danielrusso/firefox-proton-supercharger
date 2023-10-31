@@ -1,4 +1,4 @@
-## Minimalist Tab Bar for Firefox 119+ Proton UI
+## Firefox 119+ Proton Supercharger
 
 > ℹ️ This userChrome.css tweak has been updated to work with Firefox 119.0+ as of October 28, 2023
 
