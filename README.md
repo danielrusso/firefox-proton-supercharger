@@ -2,7 +2,7 @@
 
 > ℹ️ This userChrome.css tweak has been updated to work with Firefox 119.0+ as of October 28, 2023
 
-<img width="1256" alt="screenshot" src="https://user-images.githubusercontent.com/532904/139001554-10f903f9-d2be-409d-9c4e-8cd2f2ee2297.png">
+<img width="1348" alt="Screenshot 2023-10-31 at 12 22 24 PM" src="https://github.com/danielrusso/firefox-css-minimalist-proton-tab-bar/assets/532904/54993e22-a69e-4fcb-8bac-a58bcf82ee64">
 
 Simple userChrome.css tweak for Firefox 119+ (Proton) tab bar to make it more minimalistic while retaining the soul of Proton by doing the following:
 
