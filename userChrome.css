@@ -91,3 +91,8 @@
 :root .tab-icon-overlay {
 	pointer-events: none !important;
 }
+
+/* Disable List All Tabs Button */
+#alltabs-button {
+	display: none !important;
+}
