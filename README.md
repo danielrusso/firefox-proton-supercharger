@@ -10,7 +10,8 @@ Simple userChrome.css tweak for Firefox 119+ (Proton) tab bar to make it more mi
  * Adds a slight border next to each active tab for clarity and organization.
  * Reduces the opacity of inactive tabs to make active tab easier to find.
  * Adjusts the favicons on tab bars to be 50% grayscale.
- * Always show the audio icon if a particular tab is playing audio and better highlight them
+ * Always show the audio icon if a particular tab is playing audio and better highlight them.
+ * Disables "List All Tabs" functionality.
 
 ### Compatibility
 
