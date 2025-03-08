@@ -1,10 +1,10 @@
 /*
  * Proton Supercharger for Firefox 119+
  * Copyright (c) 2021 Daniel Russo.
- * 
+ *
  * For install instructions, please visit:
  * https://github.com/danielrusso/firefox-css-minimalist-proton-tab-bar
- * 
+ *
  * License: MIT License (https://opensource.org/licenses/MIT)
  */
 
@@ -72,19 +72,13 @@
 }
 
 /* Show Sound Icon While Audio Playing On Non-Selected Tab */
-:root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-stack[soundplaying] .tab-icon-image {
-	opacity: 0 !important;
-}
-
 :root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-stack[soundplaying] .tab-icon-overlay[soundplaying] {
 	opacity: 1 !important;
 }
 
-/* Make Tab More Distinct With Audio Playing */
-.tab-icon-overlay:not([crashed]):is([soundplaying], [muted], [activemedia-blocked]) {
-	background-color: purple !important;
-	fill: white !important;
-	fill-opacity: 1 !important;
+/* Hide Favicon When Audio Is Playing */
+:root .tab-icon-stack[soundplaying] {
+	display: none !important;
 }
 
 /* Disable Click To Mute Tab */
