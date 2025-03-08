@@ -1,6 +1,6 @@
 ## Firefox 136+ Proton Supercharger
 
-> ℹ️ This userChrome.css tweak has been updated to work with Firefox 136.0+ as of March 8, 2025
+> ℹ️ This userChrome.css tweak has been updated to work with Firefox 136.0+ as of March 8, 2025. It has not been tested for compatibility with vertical tabs, and I have no intention of introducing this compatibility.
 
 <img width="1348" alt="Screenshot 2023-10-31 at 12 22 24 PM" src="https://github.com/danielrusso/firefox-css-minimalist-proton-tab-bar/assets/532904/54993e22-a69e-4fcb-8bac-a58bcf82ee64">
 
