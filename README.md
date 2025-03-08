@@ -1,6 +1,6 @@
-## Firefox 119+ Proton Supercharger
+## Firefox 136+ Proton Supercharger
 
-> ℹ️ This userChrome.css tweak has been updated to work with Firefox 119.0+ as of October 28, 2023
+> ℹ️ This userChrome.css tweak has been updated to work with Firefox 136.0+ as of March 8, 2025
 
 <img width="1348" alt="Screenshot 2023-10-31 at 12 22 24 PM" src="https://github.com/danielrusso/firefox-css-minimalist-proton-tab-bar/assets/532904/54993e22-a69e-4fcb-8bac-a58bcf82ee64">
 
